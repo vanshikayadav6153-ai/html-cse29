@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Circles</title>
+
+<style>
+    body {
+        margin: 10;
+        padding: 10;
+        font-family: Arial, sans-serif;
+        background: #f2f4f7;
+
+        /* center content */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+    }
+
+    /* Main container with three items */
+    .circle-container {
+        border: 5px solid black;
+        height: 350px;
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px; /* space between circles */
+    }
+
+    /* Circle style */
+    .circle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        /* size of circle */
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background: #4e73df;
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .info {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 16px;
+    }
+    #block1{
+        display: inline-block;
+        padding: 10px;
+        
+    }
+    #block2{
+        display: inline-block;
+           padding: 10px;
+    }
+    #block3{
+        display: inline-block;
+        padding: 10px;
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="circle-container">
+
+    <!-- JK -->
+    <div id="block1">
+        <div class="circle">JK</div>
+       <div class="info>"> <p class="info"><b>Jeet Kumar</b><br></p>
+         <p class="info">Btech-CSE
+            <br>Roll No: 21CS1007 <br>
+            1st Year</p></div>
+    </div>
+
+    <!-- AR -->
+    <div id="block2"> 
+        <div class="circle">AR</div>
+        <div class="info"> <p class="info"><b>Asha Rani</b></p>
+            <p class="info">Btech-IT
+                <br>Roll No: 21IT1012 <br>
+                1st Year</p>
+
+        </div>
+    </div>
+
+    <!-- RK -->
+    <div id="block3">
+        <div class="circle">RK</div>
+        <div class="info"><p class="info"><b>Rohit Kumar</b></p>
+            <p class="info">Btech-ECE
+                <br>Roll No: 21EC1009
+            <br>1st Year </p></div>
+    </div>
+
+</div>
+
+</body>
+</html>
